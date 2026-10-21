@@ -1,0 +1,77 @@
+{
+  "format_version": 1,
+  "channel": "alpha",
+  "metadata_base": "https://raw.githubusercontent.com/Dragon-rain/miggi-releases/main/channels/alpha/metadata/",
+  "targets_base": "https://github.com/Dragon-rain/miggi-releases/releases/download/update-alpha/",
+  "trusted_root": {
+    "signatures": [
+      {
+        "keyid": "be08bf0f61f7b262a7af022db8199f4fd5a4cc57665032b565d7a1d13d8cca8a",
+        "sig": "96e7095cb56b4edbb84258ac531782e7caa4f3e2d1c7f54c583a99f8469707c05c26910e04afaadfbe1d44125f07b67542f1b74c590142da97f03a6d866f9801"
+      }
+    ],
+    "signed": {
+      "_type": "root",
+      "consistent_snapshot": true,
+      "expires": "2027-10-21T06:06:58.049907900Z",
+      "keys": {
+        "578cdb339d2bc5953f7c44529ef06e0355a5baea1f2baf02294117fd3b0b0ec6": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "b6340047fdecf92c1e7bb238c3a00ed39d91e5aeb4cd3c4157bb67d67471fa90"
+          },
+          "scheme": "ed25519"
+        },
+        "a0f799fbe945bfbbb9b1028211119dc72338c37c7dcc6238a3d17c222fe56835": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cbb5b657d5c0eed9819639de3538fb7c7fc65acd09449c3d645eddfd8feec921"
+          },
+          "scheme": "ed25519"
+        },
+        "be08bf0f61f7b262a7af022db8199f4fd5a4cc57665032b565d7a1d13d8cca8a": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "8fe255858d130f22972f30186bdc4a0ac2ed48e267df63a2b6bdf810d527525b"
+          },
+          "scheme": "ed25519"
+        },
+        "d338c1f69e24ed8e31f0275dd1a0805e77dbcbbe5979d6d119a98e1544b92fea": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "f8f12effdd3c687d3347cf119628e9d66a868e015d2b4b76e9ea20e5cdcd11e5"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": {
+        "root": {
+          "keyids": [
+            "be08bf0f61f7b262a7af022db8199f4fd5a4cc57665032b565d7a1d13d8cca8a"
+          ],
+          "threshold": 1
+        },
+        "snapshot": {
+          "keyids": [
+            "a0f799fbe945bfbbb9b1028211119dc72338c37c7dcc6238a3d17c222fe56835"
+          ],
+          "threshold": 1
+        },
+        "targets": {
+          "keyids": [
+            "578cdb339d2bc5953f7c44529ef06e0355a5baea1f2baf02294117fd3b0b0ec6"
+          ],
+          "threshold": 1
+        },
+        "timestamp": {
+          "keyids": [
+            "d338c1f69e24ed8e31f0275dd1a0805e77dbcbbe5979d6d119a98e1544b92fea"
+          ],
+          "threshold": 1
+        }
+      },
+      "spec_version": "1.0.0",
+      "version": 1
+    }
+  }
+}
