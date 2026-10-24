@@ -17,12 +17,13 @@ Personal-alpha EXEs currently have no Windows Authenticode signature. TUF protec
 updates but does not remove Windows UAC, SmartScreen or organizational policy.
 Do not bypass OS protections. First installation is a separate bootstrap step.
 
-The current personal-alpha candidate is `0.1.0-alpha.12`, built from clean source
-`0aac73fcd0eeefcda9c9b4ea8115adf4902a054a`. Its EXE is unsigned by Windows;
+The current personal-alpha candidate is `0.1.0-alpha.18`, built from clean source
+`215f8949790553843903a0b535bc09a7fcbd6dad`. Its EXE is unsigned by Windows;
 TUF metadata and immutable targets provide the alpha update-channel verification.
-The first transition from exact `alpha.7` is MANUAL: the old updater does not
-understand release format v2/internal protocol 0.14. Use the source-pinned Setup
-over the existing installation; never remove Home or guard state to bypass errors.
+The exact supported update source is the published `alpha.12` package.
+The earlier transition from exact `alpha.7` to `alpha.12` is MANUAL: its old updater
+does not understand release format v2/internal protocol 0.14. It is not a direct
+alpha.7-to-alpha.18 update. Never remove Home or guard state to bypass errors.
 Publication/download checks do not claim installed upgrade acceptance.
 
 The first configured baseline was `0.1.0-alpha.7`. Older `alpha.2` is an immutable
