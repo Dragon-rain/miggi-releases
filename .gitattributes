@@ -1,3 +1,4 @@
 # Signed metadata is byte-sensitive: never normalize line endings on checkout.
 channels/alpha/metadata/*.json -text
 channels/alpha/update-channel.json -text
+metadata/*.json -text
