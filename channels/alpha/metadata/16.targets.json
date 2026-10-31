@@ -1,0 +1,32 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 16,
+    "expires": "2027-04-29T03:42:12.748009400Z",
+    "targets": {
+      "MiggiDesktop-U2-HOST-QA-0.1.0-alpha.38-windows-x86_64.exe": {
+        "length": 73100612,
+        "hashes": {
+          "sha256": "63779654d9cbfe961b686797611472d570205efde0f893953b84dfbea3d46874"
+        }
+      },
+      "release.json": {
+        "length": 1131,
+        "hashes": {
+          "sha256": "179e7f3388e1fad2868ce46771196dc5a4abe23796b4c43c69bbbf6cf3f91949"
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "578cdb339d2bc5953f7c44529ef06e0355a5baea1f2baf02294117fd3b0b0ec6",
+      "sig": "b549e9c17ae97592a277dcf9e1539647f69dc706261ecc885b8d17958a7ce8586ff246575ce56d43cdb5fa6cf101586b25beddf0e6b714db383aadc7a7b8930d"
+    }
+  ]
+}

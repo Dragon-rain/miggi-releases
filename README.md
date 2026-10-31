@@ -17,7 +17,23 @@ Personal-alpha EXEs currently have no Windows Authenticode signature. TUF protec
 updates but does not remove Windows UAC, SmartScreen or organizational policy.
 Do not bypass OS protections. First installation is a separate bootstrap step.
 
-The current personal-alpha candidate is `0.1.0-alpha.19`, built from clean source
+The current personal-alpha candidate is `0.1.0-alpha.38`, built from clean source
+`79f6fc058bfeebd856fffbcb7183a3d8632a3804`, schema V031 / protocol 0.15.
+It supports fresh installation and a MANUAL run over the exact alpha.20 package
+`u1-0a7f426ad8e8-c710210d2310`, inventory SHA-256
+`3b22bc5434077f5c7a657b993c23b421a916d54637416ff798028d65bbae5ff8`.
+Do not remove Home or the app first. Read and accept the English/Russian/Korean
+terms, then separately confirm native memory migration with verified snapshots.
+Only legal adults in their country who are at least 18 years old may use this alpha.
+
+The signed V031 baseline pins ONLY alpha.38 itself and reports Current to it.
+It does NOT authorise an automatic update of alpha.20, another memory format,
+or unknown earlier test builds. Future compatible updates need an exact-source
+installer and signed descriptor. This exact alpha.38 Setup has not been run;
+offline/compile/download checks are not installed acceptance. Experimental
+encrypted memory backups/recovery are disabled in this ordinary public build.
+
+Historical alpha.19, built from clean source
 `bb466933040e8a14fcdd041d4d21b42512a596a4`. Its EXE is unsigned by Windows;
 TUF metadata and immutable targets provide the alpha update-channel verification.
 The exact supported in-app update source for alpha.19 is the published `alpha.18`
