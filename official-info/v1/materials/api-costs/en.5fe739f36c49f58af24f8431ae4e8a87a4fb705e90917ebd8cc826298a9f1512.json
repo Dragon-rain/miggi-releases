@@ -1,0 +1,157 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "api-costs",
+  "kind": "pricing",
+  "locale": "en",
+  "pricingSnapshot": {
+    "checkedOn": "2026-11-05",
+    "currency": "USD",
+    "longContextInputMultiplier": 2,
+    "longContextOutputMultiplier": 1.5,
+    "longContextThreshold": 272000,
+    "models": [
+      {
+        "id": "gpt-6-luna",
+        "rates": [
+          100000,
+          10000,
+          125000,
+          250000,
+          500000
+        ]
+      },
+      {
+        "id": "gpt-6.1-terra",
+        "rates": [
+          1000000,
+          50000,
+          1250000,
+          2500000,
+          5000000
+        ]
+      },
+      {
+        "id": "gpt-6.1-sol",
+        "rates": [
+          2000000,
+          100000,
+          2500000,
+          5000000,
+          10000000
+        ]
+      },
+      {
+        "id": "gpt-6-astra",
+        "rates": [
+          10000000,
+          1000000,
+          12500000,
+          25000000,
+          50000000
+        ]
+      }
+    ],
+    "rateOrder": [
+      "input",
+      "cache-read",
+      "cache-write-30m",
+      "cache-write-12h",
+      "output"
+    ],
+    "staleAfterDays": 30,
+    "unit": "micro-USD-per-million-tokens",
+    "webSearchMicroUsdPerCall": 10000
+  },
+  "references": [
+    {
+      "label": "OpenAI API pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "label": "OpenAI prompt caching",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
+    },
+    {
+      "label": "GPT-6 Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    },
+    {
+      "label": "GPT-6.1 Terra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+    },
+    {
+      "label": "GPT-6.1 Sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+    },
+    {
+      "label": "GPT-6 Astra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    }
+  ],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Choose a model. Estimate the cost.",
+      "paragraphs": [
+        "An OpenAI API calculator and task-oriented model guide. No key or account connection needed.",
+        "Calculations stay in your browser. We receive no entered counts, conversations or API keys.",
+        "More services, including Claude, will follow with their own pricing rules."
+      ]
+    },
+    {
+      "heading": "Caching and extra costs",
+      "paragraphs": [
+        "Enter totals for the selected period. Input includes context and instructions; output includes reasoning. This is an example workload, not your Miggi usage.",
+        "Cache counts are part of input, not extra tokens. Zeros assume no caching; they are not measured usage. A complete estimate needs all usage fields. Include search-result tokens in total input as well as the separate search-call charge.",
+        "The threshold applies per request, not per month. Calculate mixed request groups separately. Long requests: input and cache ×2, output ×1.5."
+      ]
+    },
+    {
+      "heading": "Estimate for the selected period",
+      "paragraphs": [
+        "USD · direct OpenAI API · Standard · no regional premiums. Not an invoice or an account balance.",
+        "This compares equal token counts, not equal answer quality. Different models may use different token counts for the same task.",
+        "This initial catalogue covers four general-purpose GPT-6/6.1 models, not the entire OpenAI range. Guidance follows vendor documentation, not comparative Miggi benchmarks. Access depends on your account and app version. Audio, image generation, storage, other tools, taxes, discounts and special processing tiers are excluded. No API calls or automatic model changes are made."
+      ]
+    },
+    {
+      "heading": "Sources and calculation limits",
+      "paragraphs": [
+        "Prices checked: 2026-11-05"
+      ]
+    },
+    {
+      "heading": "GPT-6 Luna",
+      "paragraphs": [
+        "An economical starting point",
+        "For focused everyday tasks and high volumes of simple requests."
+      ]
+    },
+    {
+      "heading": "GPT-6.1 Terra",
+      "paragraphs": [
+        "Images and writing",
+        "For visual analysis, screen-based work and clear, natural writing."
+      ]
+    },
+    {
+      "heading": "GPT-6.1 Sol",
+      "paragraphs": [
+        "Complex work, balanced cost",
+        "For coding, professional tasks and multi-step analysis."
+      ]
+    },
+    {
+      "heading": "GPT-6 Astra",
+      "paragraphs": [
+        "The most demanding work",
+        "For difficult reasoning, research and document creation; weigh the additional cost."
+      ]
+    }
+  ],
+  "title": "Choose a model. Estimate the cost.",
+  "websitePath": "api/"
+}

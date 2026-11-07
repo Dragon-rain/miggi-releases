@@ -1,0 +1,47 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "guide-costs",
+  "kind": "guide",
+  "locale": "en",
+  "references": [
+    {
+      "label": "OpenAI: create an API key",
+      "url": "https://developers.openai.com/api/docs/quickstart"
+    },
+    {
+      "label": "OpenAI: pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "label": "OpenAI: subscription API credits",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+    },
+    {
+      "label": "Ollama: installation and local use",
+      "url": "https://docs.ollama.com/quickstart"
+    }
+  ],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Connect an AI model to chat",
+      "paragraphs": [
+        "Miggi is free. You need your own OpenAI API key with available credits, or a compatible local model through Ollama. Cloud API usage is billed separately.",
+        "Choose a cloud or local connection. AI replies are unavailable until a model is configured."
+      ]
+    },
+    {
+      "heading": "Billing and usage",
+      "paragraphs": [
+        "Miggi does not include prepaid cloud AI. API billing is between you and OpenAI under its terms; available credits may cover some usage.",
+        "Costs depend on the model, request and selected context size, output, and tools. Dictation, file study, and enabled background processing can also incur API charges.",
+        "Check the provider’s Usage and Billing pages. Configure available spending alerts and controls, and review automatic recharge settings. A budget alert is not a guaranteed hard spending cap."
+      ]
+    }
+  ],
+  "title": "Billing and usage",
+  "websitePath": "guides/#costs"
+}

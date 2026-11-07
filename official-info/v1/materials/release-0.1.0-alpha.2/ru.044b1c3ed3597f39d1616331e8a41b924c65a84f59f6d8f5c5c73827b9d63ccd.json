@@ -1,0 +1,64 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.2",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.2",
+  "kind": "release",
+  "locale": "ru",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.2"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-21",
+    "kind": "download-test",
+    "version": "0.1.0-alpha.2"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.2",
+      "paragraphs": [
+        "Первый опубликованный кандидат для проверки пути скачивания с сайта. Это не стабильный выпуск и не завершённая приёмка альфы."
+      ]
+    },
+    {
+      "heading": "Проверяет совпадение байтов. Не заменяет цифровую подпись издателя.",
+      "paragraphs": [
+        "Без Windows-подписи издателя."
+      ]
+    },
+    {
+      "heading": "Тест скачивания",
+      "paragraphs": [
+        "Автообновления для этой сборки нет."
+      ]
+    },
+    {
+      "heading": "Добавлено",
+      "paragraphs": [
+        "Установщик первой установки для Windows x86_64 с UAC и выбором папки программы.",
+        "Безопасный предварительный просмотр и экспорт диагностического отчёта в отдельный JSON.",
+        "Публичная загрузка установщика и контрольной суммы без аккаунта GitHub."
+      ]
+    },
+    {
+      "heading": "Известные ограничения",
+      "paragraphs": [
+        "Без цифровой подписи. Не обходите предупреждения SmartScreen и другие защитные механизмы Windows.",
+        "Только первая установка: существующая установка и непустая папка программы отклоняются. Повторная установка, ремонт и автообновление ещё не готовы.",
+        "Установка и первоначальная настройка именно этого кандидата на чистом ПК ещё не проверены. Минимальная поддерживаемая версия Windows уточняется.",
+        "В метаданных сборки честно указан source_dirty: true из-за прежних QA helpers, не входящих в комплект. Это не прохождение требования чистого релизного исходника."
+      ]
+    }
+  ],
+  "title": "Тест скачивания 0.1.0-alpha.2",
+  "websitePath": "updates/#release-0.1.0-alpha.2"
+}

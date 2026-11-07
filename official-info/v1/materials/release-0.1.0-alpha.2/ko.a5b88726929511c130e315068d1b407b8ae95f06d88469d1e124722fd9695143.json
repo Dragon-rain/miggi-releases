@@ -1,0 +1,64 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.2",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.2",
+  "kind": "release",
+  "locale": "ko",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.2"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-21",
+    "kind": "download-test",
+    "version": "0.1.0-alpha.2"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.2",
+      "paragraphs": [
+        "사이트에서의 다운로드 경로를 확인하기 위해 공개한 첫 후보입니다. 안정 버전도 아니고 알파 검증이 완료된 버전도 아닙니다."
+      ]
+    },
+    {
+      "heading": "파일 바이트의 일치 여부를 확인합니다. 게시자의 디지털 서명을 대신하지 않습니다.",
+      "paragraphs": [
+        "Windows 게시자 서명이 없습니다."
+      ]
+    },
+    {
+      "heading": "다운로드 테스트",
+      "paragraphs": [
+        "이 빌드에는 자동 업데이트가 없습니다."
+      ]
+    },
+    {
+      "heading": "추가",
+      "paragraphs": [
+        "UAC와 프로그램 폴더 선택 기능을 갖춘 Windows x86_64 최초 설치 프로그램.",
+        "별도 JSON 파일로 안전한 진단 보고서를 미리 보고 내보내는 기능.",
+        "GitHub 계정 없이 설치 파일과 체크섬을 공개 다운로드할 수 있습니다."
+      ]
+    },
+    {
+      "heading": "알려진 제한 사항",
+      "paragraphs": [
+        "디지털 서명이 없습니다. SmartScreen 경고 또는 다른 Windows 보안 기능을 우회하지 마세요.",
+        "최초 설치만 지원하며 기존 설치나 비어 있지 않은 프로그램 폴더는 거부합니다. 재설치, 복구, 자동 업데이트는 준비되지 않았습니다.",
+        "이 후보의 설치와 초기 설정은 깨끗한 PC에서 아직 확인되지 않았습니다. 최소 지원 Windows 버전은 확인 중입니다.",
+        "빌드 메타데이터에는 패키지에 포함되지 않은 이전 QA 도우미 때문에 source_dirty: true가 정직하게 기록되어 있습니다. 깨끗한 릴리스 소스 요건을 충족한 것으로 볼 수 없습니다."
+      ]
+    }
+  ],
+  "title": "다운로드 테스트 0.1.0-alpha.2",
+  "websitePath": "updates/#release-0.1.0-alpha.2"
+}

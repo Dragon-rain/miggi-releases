@@ -1,0 +1,64 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.2",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.2",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.2"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-21",
+    "kind": "download-test",
+    "version": "0.1.0-alpha.2"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.2",
+      "paragraphs": [
+        "The first published candidate for testing the site download path. It is neither a stable release nor completed alpha acceptance."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Download test",
+      "paragraphs": [
+        "This build has no automatic updates."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "A Windows x86_64 first-install installer with UAC and a choice of program folder.",
+        "Safe preview and export of a diagnostic report to a separate JSON file.",
+        "Public installer and checksum downloads without a GitHub account."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "No digital signature. Do not bypass SmartScreen warnings or other Windows protections.",
+        "First installation only: an existing installation or nonempty program folder is rejected. Reinstallation, repair, and automatic updates are not ready.",
+        "Installation and initial setup of this exact candidate have not yet been tested on a clean PC. The minimum supported Windows version is still being determined.",
+        "Build metadata honestly reports source_dirty: true due to earlier QA helpers not included in the package. This does not satisfy the clean-release-source requirement."
+      ]
+    }
+  ],
+  "title": "Download test 0.1.0-alpha.2",
+  "websitePath": "updates/#release-0.1.0-alpha.2"
+}

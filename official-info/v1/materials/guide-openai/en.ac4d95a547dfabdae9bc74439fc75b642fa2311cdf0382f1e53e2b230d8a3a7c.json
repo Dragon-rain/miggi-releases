@@ -1,0 +1,53 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "guide-openai",
+  "kind": "guide",
+  "locale": "en",
+  "references": [
+    {
+      "label": "OpenAI: create an API key",
+      "url": "https://developers.openai.com/api/docs/quickstart"
+    },
+    {
+      "label": "OpenAI: pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "label": "OpenAI: subscription API credits",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+    },
+    {
+      "label": "Ollama: installation and local use",
+      "url": "https://docs.ollama.com/quickstart"
+    }
+  ],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Connect an AI model to chat",
+      "paragraphs": [
+        "Miggi is free. You need your own OpenAI API key with available credits, or a compatible local model through Ollama. Cloud API usage is billed separately.",
+        "Choose a cloud or local connection. AI replies are unavailable until a model is configured."
+      ]
+    },
+    {
+      "heading": "Connect OpenAI",
+      "paragraphs": [
+        "Sign in to OpenAI API Platform. Check service availability in your region and current pricing.",
+        "Check API billing and available credits. A ChatGPT subscription does not connect Miggi by itself: this connection uses an API key. Some subscriptions offer API credits under separate conditions.",
+        "Create a dedicated project API key for Miggi. If you restrict permissions, allow Responses API requests; dictation also needs speech transcription access. Unavailable operations may fail.",
+        "In first-run setup or Miggi’s AI settings, select OpenAI and a model. Enter your key only in the app’s protected prompt, then verify and apply the connection. Verification may incur an API charge.",
+        "Send a short message and check usage in OpenAI’s dashboard. Start with automatic file study turned off while you learn how the app and costs work.",
+        "Step 3 of first-run setup: select OpenAI API and a model, then choose “Check connection and continue”. Do not enter your key on this screen. This is a test screen; available models may differ.",
+        "The protected Windows prompt for your OpenAI key opens next. The field is empty in this screenshot; no real keys were used.",
+        "Paste your key into the Password field, not the username. Choose OK to verify it. Cancel stops key entry. System button labels depend on your Windows language.",
+        "Keep it in a safe place. Never publish it online, in repositories, chats, logs, or screenshots, and do not send it to anyone. Enter it only in the app’s protected prompt. If exposed, revoke it immediately in OpenAI’s dashboard and create a replacement."
+      ]
+    }
+  ],
+  "title": "Connect OpenAI",
+  "websitePath": "guides/#openai"
+}

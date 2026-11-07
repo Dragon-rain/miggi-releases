@@ -1,0 +1,66 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.7",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.7",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.7"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-21",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.7"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.7",
+      "paragraphs": [
+        "The first configured build with the alpha channel: updates are checked automatically; download and installation require user confirmation.",
+        "A personal alpha for testing the first installation and future updates. This is not a stable release."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "A unified update mechanism that verifies signed TUF data, installer size, and SHA-256.",
+        "Update window to check, download, update, and restart; UAC is still required.",
+        "Protection for unfinished conversations, drafts, and attachments before updating.",
+        "Safe diagnostics for update stages and a memory-readiness check after restart."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature yet: “Unknown publisher” or a SmartScreen warning or block is possible. Do not bypass SmartScreen or disable Windows protection.",
+        "A real installed A → B update, repair, and clean-PC test are still pending; local checks do not replace them.",
+        "Alpha.2 has no updater. This version is a new initial installation, not an automatic transition from alpha.2.",
+        "Technical minimum: Windows 10 x86_64 build 17763; compatibility with every supported Windows version and GPU has not yet been verified."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.7",
+  "websitePath": "updates/#release-0.1.0-alpha.7"
+}

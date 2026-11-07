@@ -1,0 +1,48 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "guide-ollama",
+  "kind": "guide",
+  "locale": "en",
+  "references": [
+    {
+      "label": "OpenAI: create an API key",
+      "url": "https://developers.openai.com/api/docs/quickstart"
+    },
+    {
+      "label": "OpenAI: pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "label": "OpenAI: subscription API credits",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+    },
+    {
+      "label": "Ollama: installation and local use",
+      "url": "https://docs.ollama.com/quickstart"
+    }
+  ],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Connect an AI model to chat",
+      "paragraphs": [
+        "Miggi is free. You need your own OpenAI API key with available credits, or a compatible local model through Ollama. Cloud API usage is billed separately.",
+        "Choose a cloud or local connection. AI replies are unavailable until a model is configured."
+      ]
+    },
+    {
+      "heading": "Run a local model with Ollama",
+      "paragraphs": [
+        "Install Ollama from its official website and download a model suitable for your computer. Ollama is installed separately from Miggi.",
+        "Start the local Ollama server. In Miggi’s AI settings, choose Ollama, the local connection, and a compatible model; verify and apply your selection.",
+        "Local inference needs no cloud API key. Speed, memory use, and quality depend on your computer and model; not every model supports Miggi’s requirements. Do not expose the server to the internet to connect it.",
+        "Available tools depend on the connection. A local model does not make network features offline; Ollama cloud models are a separate mode not covered here."
+      ]
+    }
+  ],
+  "title": "Run a local model with Ollama",
+  "websitePath": "guides/#ollama"
+}

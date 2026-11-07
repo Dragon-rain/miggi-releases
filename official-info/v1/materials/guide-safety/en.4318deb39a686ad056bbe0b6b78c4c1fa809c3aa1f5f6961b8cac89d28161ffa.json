@@ -1,0 +1,47 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "guide-safety",
+  "kind": "guide",
+  "locale": "en",
+  "references": [
+    {
+      "label": "OpenAI: create an API key",
+      "url": "https://developers.openai.com/api/docs/quickstart"
+    },
+    {
+      "label": "OpenAI: pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "label": "OpenAI: subscription API credits",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits"
+    },
+    {
+      "label": "Ollama: installation and local use",
+      "url": "https://docs.ollama.com/quickstart"
+    }
+  ],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Connect an AI model to chat",
+      "paragraphs": [
+        "Miggi is free. You need your own OpenAI API key with available credits, or a compatible local model through Ollama. Cloud API usage is billed separately.",
+        "Choose a cloud or local connection. AI replies are unavailable until a model is configured."
+      ]
+    },
+    {
+      "heading": "Keys and data",
+      "paragraphs": [
+        "The Miggi website never asks for API keys. Do not share them in chats, support requests, logs, or screenshots. Revoke an exposed key with the provider and create a replacement.",
+        "Cloud AI receives your request, selected context, and submitted attachments. Local history does not mean data never leaves your computer. Check the files in your Home before enabling automatic study.",
+        "Keep it in a safe place. Never publish it online, in repositories, chats, logs, or screenshots, and do not send it to anyone. Enter it only in the app’s protected prompt. If exposed, revoke it immediately in OpenAI’s dashboard and create a replacement."
+      ]
+    }
+  ],
+  "title": "Keys and data",
+  "websitePath": "guides/#safety"
+}

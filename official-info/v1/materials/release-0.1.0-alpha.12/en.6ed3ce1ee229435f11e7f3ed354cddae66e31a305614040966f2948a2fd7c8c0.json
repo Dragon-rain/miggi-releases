@@ -1,0 +1,76 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.12",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.12",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.12"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.12/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.12-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.12/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.12-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-24",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.12"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.12",
+      "paragraphs": [
+        "A new personal-alpha candidate from clean main: voice dictation, an updated chat, and reliability fixes.",
+        "Moving from alpha.7 requires a one-time manual run of the new installer over the existing program. The old updater cannot read the new channel format; Home does not need to be removed.",
+        "Publication and download checks are separate from installation: the installed transition, repair, and restart still require live acceptance."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "Dictation through the configured OpenAI connection: button-based recording, Stop to transcribe, and Cancel without uploading the recording. Text stays in the draft.",
+        "Live audio-level waves inside the input field, consistent buttons, and a calmer interface without permanent status labels.",
+        "Connection capabilities and tools now switch through the selected AI provider interfaces; unsupported controls are hidden.",
+        "Optional installer compatibility with RTSS for Miggi only, without changing Global settings or other apps’ profiles."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "The full-package replacement contract separates memory compatibility from the internal Core/UI protocol; source and target packages are checked exactly.",
+        "Strengthened checks for post-update state, context preservation, Core connectivity, and connection settings.",
+        "Improved paste and multiline input, bounded visible history, diagnostics, and second-install protection."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature: “Unknown publisher”, a SmartScreen warning, or blocking is possible. Do not bypass SmartScreen or disable Windows protection. A TUF signature is not a Windows publisher signature.",
+        "Alpha.7 → alpha.12 is a manual transition only from the verified alpha.7 package. The old alpha.7 cannot auto-update to this version; unknown older installations are unsupported for this transition.",
+        "Do not delete Home, the program, or protected markers to bypass a refusal. A real installed update, UAC cancellation, recovery, repair, and post-restart health have not yet passed acceptance.",
+        "803 offline tests, 26 synthetic UI tests, and 16 document operations passed; that is not clean-PC acceptance or a guarantee for every Windows/GPU or perfect Office rendering.",
+        "Technical minimum: Windows 10 x86_64 build 17763. Voice dictation needs a microphone and available STT in the selected connection; cloud transcription costs money."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.12",
+  "websitePath": "updates/#release-0.1.0-alpha.12"
+}

@@ -1,0 +1,79 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.38",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.38"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.38/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.38-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.38/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.38-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-31",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.38"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.38",
+      "paragraphs": [
+        "A new alpha from clean main: quick chat beside Miggi, improved file study and memory search, screen-capture fixes, and a three-language interface.",
+        "The exact alpha.20 can be upgraded manually over the existing app, with separate confirmation to migrate memory from V025 to V031. Do not remove the app or Home first. Other old versions are not verified sources for this installer.",
+        "Installer terms are available in English, Russian and Korean, with English selected by default. This alpha is for legal adults in their country who are at least 18 years old."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "Quick input beside Miggi, a shared draft, attachments and reply bubbles; full chat history opens separately.",
+        "Multiple screen regions in one draft, attachment thumbnails and easier history scrolling.",
+        "Improved memory search, source verification and revision history for important information.",
+        "Room-grouped file-study offers, a processing queue and separate automatic study for text and images.",
+        "Installer terms in English, Russian and Korean, a record of the accepted edition, and separate data-operation permissions."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "Windows screen capture and transparency, chat layout near screen edges, and repeated screenshot attachment.",
+        "Localised app dialogs, file selection and installer; settings can be moved as a normal window.",
+        "The updater shows download progress and a compact install/restart indicator; compatible updates do not repeat first-run setup.",
+        "The confirmed memory migration preserves history, Rooms and settings and verifies a snapshot before each step."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature. Do not bypass SmartScreen or disable Windows protection; TUF does not replace a Windows signature.",
+        "The first upgrade from the exact alpha.20 is manual, not through its old updater. The signed baseline describes only alpha.38 and authorises no automatic transition from older memory formats. Future updates need a verified compatible source.",
+        "This installer has not been run: fresh installation, agreement acceptance and migration on your PC still need live testing. Isolated tests cannot guarantee a bug-free experience; keep an independent copy of important data.",
+        "For a fresh installation, use a separate test Home without work or personal data. If installation is refused, do not delete Home or protected records to bypass verification.",
+        "Experimental encrypted memory backups and the recovery utility are disabled in this public build. The ordinary memory database is not encrypted in full by the app.",
+        "Technical minimum: Windows 10 x86_64 build 17763. Compatibility with every GPU and configuration has not yet been verified."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.38",
+  "websitePath": "updates/#release-0.1.0-alpha.38"
+}

@@ -1,0 +1,82 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "installation",
+  "kind": "guide",
+  "locale": "en",
+  "references": [],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Installation and first run",
+      "paragraphs": [
+        "Installation, first steps, and known limitations. This is a test version; errors are possible.",
+        "Technical minimum: Windows 10 x86_64 build 17763. Compatibility with every Windows version and GPU has not yet been verified.",
+        "For the first test, choose a new Home without work or personal data. If the installer refuses, do not delete Home, the app, or protected records to bypass the error. Do not bypass SmartScreen."
+      ]
+    },
+    {
+      "heading": "Read the build notes",
+      "paragraphs": [
+        "Alpha.38 passed isolated tests, but this installer has not been run. If Miggi is installed, check its exact build and the supported path below. This alpha is for legal adults in their country who are at least 18 years old."
+      ]
+    },
+    {
+      "heading": "Install the app",
+      "paragraphs": [
+        "Choose the program folder and approve the Windows administrator request (UAC). Run the app itself with ordinary user rights."
+      ]
+    },
+    {
+      "heading": "Choose Home",
+      "paragraphs": [
+        "On first launch, choose a separate folder for history and context. It must not overlap the program folder."
+      ]
+    },
+    {
+      "heading": "Connect AI",
+      "paragraphs": [
+        "Choose a provider. Cloud API use requires your own key and is billed separately. Start with a short conversation and check that it remains after restarting."
+      ]
+    },
+    {
+      "heading": "If Miggi is already installed",
+      "paragraphs": [
+        "Alpha.38 accepts only the exact verified alpha.20 package. Download the EXE and install over it in the same folder, without removing the app or Home. Accept the terms, then separately confirm V025 → V031 memory migration with a snapshot before each step. This is a manual installer run, not an automatic format change by the old updater. Migration on your PC still needs live testing."
+      ]
+    },
+    {
+      "heading": "Other older and intermediate versions",
+      "paragraphs": [
+        "Historical Alpha.7 → alpha.12 → alpha.18 → alpha.19 paths remain in the release history, but do not authorise a direct move to alpha.38. Other old and test builds need a separate compatibility check. Do not delete protected records manually or open new memory with an old version to bypass a refusal."
+      ]
+    },
+    {
+      "heading": "Where data is stored",
+      "paragraphs": [
+        "History, rooms, and context are in the Home you choose on your computer. This is neither cloud sync nor an encrypted portable archive. Make verified backups.",
+        "A cloud provider receives your request, selected context, and approved attachments. Ollama can use a compatible local model, but search and other network tools still access the internet.",
+        "This site does not ask for keys or receive Miggi memory. It has no registration, analytics, or data-collection forms; downloading from GitHub Releases does not require an account."
+      ]
+    },
+    {
+      "heading": "How to report an issue",
+      "paragraphs": [
+        "Describe what you did, what you expected, and what happened. Include Miggi and Windows versions. Attach a screenshot without personal information."
+      ]
+    },
+    {
+      "heading": "Export diagnostics",
+      "paragraphs": [
+        "Open the diagnostics export in Miggi’s system-tray menu.",
+        "Review the preview report and save the JSON file.",
+        "Send it to the project author with your issue description.",
+        "Do not send raw logs, Home, the memory database, dumps, personal documents, or API keys. Diagnostics do not guarantee that every error is captured."
+      ]
+    }
+  ],
+  "title": "Alpha test",
+  "websitePath": "alpha/"
+}

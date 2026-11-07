@@ -1,0 +1,66 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.7",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.7",
+  "kind": "release",
+  "locale": "ru",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.7"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-21",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.7"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.7",
+      "paragraphs": [
+        "Первая настроенная сборка с каналом alpha: автоматическая проверка обновлений, загрузка и установка — по подтверждению пользователя.",
+        "Личная альфа для проверки первой установки и следующих обновлений. Это не стабильный выпуск."
+      ]
+    },
+    {
+      "heading": "Проверяет совпадение байтов. Не заменяет цифровую подпись издателя.",
+      "paragraphs": [
+        "Без Windows-подписи издателя."
+      ]
+    },
+    {
+      "heading": "Альфа",
+      "paragraphs": [
+        "Проверка обновлений автоматически; загрузка и установка по подтверждению."
+      ]
+    },
+    {
+      "heading": "Добавлено",
+      "paragraphs": [
+        "Единый механизм обновлений с проверкой подписанных TUF-данных, размера и SHA-256 установщика.",
+        "Окно обновлений: проверить, скачать, обновить и перезапустить; UAC остаётся обязательным.",
+        "Защита незавершённого диалога, черновиков и вложений перед обновлением.",
+        "Безопасная диагностика этапов обновления и проверка готовности памяти после перезапуска."
+      ]
+    },
+    {
+      "heading": "Известные ограничения",
+      "paragraphs": [
+        "EXE пока без Windows Authenticode: возможны «Неизвестный издатель», предупреждение или блокировка SmartScreen. Не обходите SmartScreen и не отключайте защиту Windows.",
+        "Настоящее установленное обновление A → B, ремонт и проверка на чистом ПК ещё предстоят; локальные проверки их не заменяют.",
+        "Alpha.2 не содержит обновлятора. Эта версия — новая исходная установка, а не автоматический переход с alpha.2.",
+        "Технический минимум — Windows 10 x86_64 build 17763; совместимость со всеми поддерживаемыми Windows и GPU ещё не проверена."
+      ]
+    }
+  ],
+  "title": "Альфа 0.1.0-alpha.7",
+  "websitePath": "updates/#release-0.1.0-alpha.7"
+}

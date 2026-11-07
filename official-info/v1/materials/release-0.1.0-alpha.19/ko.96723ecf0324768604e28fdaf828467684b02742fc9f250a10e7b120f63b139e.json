@@ -1,0 +1,66 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.19",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.19",
+  "kind": "release",
+  "locale": "ko",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.19"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-25",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.19"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.19",
+      "paragraphs": [
+        "프로그램 삭제 후 남아 있는 alpha.12 보호 기록을 검증하여 재설치를 처리합니다. 사용자가 기록을 수동 삭제할 필요가 없습니다.",
+        "알파 채널 업데이트는 정확히 공개된 alpha.18 패키지에서만 지원됩니다. 설치된 alpha.12는 alpha.18로 별도 업그레이드해야 합니다. 프로그램 삭제 후 남은 alpha.12 보호 기록이 검증되면 alpha.19를 직접 설치할 수 있습니다.",
+        "프로그램 삭제 시 홈과 메모리는 기본적으로 보존됩니다. 이번 공개 과정에서는 alpha.19 설치 프로그램을 실행하지 않았으며 실제 PC에서의 확인은 별도 단계입니다."
+      ]
+    },
+    {
+      "heading": "파일 바이트의 일치 여부를 확인합니다. 게시자의 디지털 서명을 대신하지 않습니다.",
+      "paragraphs": [
+        "Windows 게시자 서명이 없습니다."
+      ]
+    },
+    {
+      "heading": "알파",
+      "paragraphs": [
+        "업데이트를 자동으로 확인하며 다운로드와 설치에는 확인이 필요합니다."
+      ]
+    },
+    {
+      "heading": "수정",
+      "paragraphs": [
+        "재설치는 삭제된 alpha.12의 검증된 상태 또는 정확히 공개된 alpha.18 패키지만 허용합니다. 알 수 없거나 변경된 기록은 차단됩니다.",
+        "프로그램 삭제 안내에 향후 설치를 위해 홈, 메모리, 보호 기록이 유지된다는 점을 더 명확히 적었습니다."
+      ]
+    },
+    {
+      "heading": "알려진 제한 사항",
+      "paragraphs": [
+        "EXE에 Windows Authenticode 서명이 없어 “알 수 없는 게시자” 표시나 SmartScreen 차단이 발생할 수 있습니다. SmartScreen을 우회하거나 Windows 보안을 끄지 마세요. TUF는 Windows 서명을 대신하지 않습니다.",
+        "alpha.19 채널 업데이트는 정확한 alpha.18에서만 지원됩니다. 설치된 alpha.12에서 alpha.19로 바로 업데이트할 수 없으며 alpha.7 및 알 수 없는 중간 버전도 이 경로를 지원하지 않습니다.",
+        "alpha.12 삭제 후 재설치는 격리 환경에서 확인했지만, 이 설치 프로그램 자체는 아직 주 PC에서 실행하지 않았습니다. 전체 업데이트 과정, 첫 실행, 메모리 삭제는 별도의 실제 테스트가 필요합니다.",
+        "오류를 우회하려고 홈, 프로그램 또는 보호 기록을 삭제하지 마세요. 설치가 거부되면 안전한 진단 보고서를 저장하세요. 첫 테스트에는 별도의 테스트 홈을 사용하세요.",
+        "최소 기술 요구 사항은 Windows 10 x86_64 빌드 17763입니다. 모든 Windows 버전과 GPU의 호환성은 아직 확인되지 않았습니다."
+      ]
+    }
+  ],
+  "title": "알파 0.1.0-alpha.19",
+  "websitePath": "updates/#release-0.1.0-alpha.19"
+}

@@ -1,0 +1,83 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.38",
+    "type": "published-site"
+  },
+  "id": "about",
+  "kind": "guide",
+  "locale": "en",
+  "references": [],
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "What Miggi can do",
+      "paragraphs": [
+        "Explore ideas and pick up conversations where you left off. Miggi stores your history on your computer and works with the model you choose.",
+        "Keep topics separate",
+        "Work, study, or a personal project — each topic has its own room, conversation, and context.",
+        "Keep your history",
+        "Conversations and context live in Home, a folder you choose. The model receives the relevant part of your history, not all of it at once.",
+        "Switch models",
+        "You can change AI providers while keeping conversations in the same profile. Responses and available tools depend on the selected model."
+      ]
+    },
+    {
+      "heading": "Connect an AI model to chat",
+      "paragraphs": [
+        "Miggi is free. You need your own OpenAI API key with available credits, or a compatible local model through Ollama. Cloud API usage is billed separately."
+      ]
+    },
+    {
+      "heading": "Try the alpha",
+      "paragraphs": [
+        "A test version, not a stable release. For your first run, use a separate Home without personal data.",
+        "Do not bypass SmartScreen or disable Windows protection. Read the build limitations before installing."
+      ]
+    },
+    {
+      "heading": "Do I need an API key?",
+      "paragraphs": [
+        "For cloud AI, you need a key from your chosen provider. API usage is billed separately at that provider’s rates. Enter the key in the app, not on this site."
+      ]
+    },
+    {
+      "heading": "Can I use it without a cloud model?",
+      "paragraphs": [
+        "Yes, with Ollama and a compatible local model. Hardware requirements depend on the model. Search and other network tools still use the internet."
+      ]
+    },
+    {
+      "heading": "What data goes to the cloud?",
+      "paragraphs": [
+        "With cloud AI, the provider receives your request, selected context, and attachments you allow. Local history storage does not mean every feature works offline. Back up important data."
+      ]
+    },
+    {
+      "heading": "How are updates installed?",
+      "paragraphs": [
+        "Miggi checks the alpha channel automatically. Download and installation require your confirmation; Windows will ask for administrator rights. The TUF channel signature does not replace a Windows publisher signature. The full installed update cycle still needs testing; supported paths are listed in the release notes."
+      ]
+    },
+    {
+      "heading": "How Miggi works",
+      "paragraphs": [
+        "The Core connects the interface, local memory, and your chosen model.",
+        "Interface",
+        "Messages and replies",
+        "Core",
+        "Selects context for the model",
+        "Miggi Home",
+        "Rooms, history, and files",
+        "Model",
+        "For example, via OpenAI",
+        "Request and selected context",
+        "Reply",
+        "You can use a compatible local model through Ollama instead of a cloud provider.",
+        "Stored history is broader than the context of a single reply. Backups are needed to protect against data loss.",
+        "Godot · Rust · SQLite"
+      ]
+    }
+  ],
+  "title": "An AI companion on your computer",
+  "websitePath": ""
+}

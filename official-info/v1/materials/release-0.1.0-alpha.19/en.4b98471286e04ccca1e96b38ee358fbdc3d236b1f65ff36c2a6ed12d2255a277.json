@@ -1,0 +1,66 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.19",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.19",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.19"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-25",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.19"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.19",
+      "paragraphs": [
+        "Reinstallation after removing the app now handles a retained alpha.12 protected record: the installer verifies it instead of asking you to delete it manually.",
+        "Alpha-channel updates are supported only from the exact published alpha.18 package. An installed alpha.12 needs a separate upgrade to alpha.18; direct alpha.19 installation is possible after removing the program if its retained alpha.12 record passes verification.",
+        "Home and memory are kept by default when the program is removed. The alpha.19 installer was not run for this publication; testing on a real PC remains a separate step."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "Reinstallation accepts only a verified removed-alpha.12 state or the exact published alpha.18 package; unknown or modified records are blocked.",
+        "The uninstaller text more clearly explains that Home, memory, and the protected record are retained for a future installation."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature: “Unknown publisher” or SmartScreen blocking is possible. Do not bypass SmartScreen or disable Windows protection. TUF does not replace a Windows signature.",
+        "The alpha.19 channel supports updating only from the exact alpha.18. Installed alpha.12 cannot update directly to alpha.19; alpha.7 and unknown intermediate versions are also unsupported for this path.",
+        "Reinstallation after removing alpha.12 passed isolated tests, but this exact installer has not yet run on the main PC. The full update cycle, first run, and memory removal need separate live testing.",
+        "Do not delete Home, the program, or protected records to bypass an error. If installation is refused, save a safe diagnostic report. For the first test, use a separate test Home.",
+        "Technical minimum: Windows 10 x86_64 build 17763. Compatibility with every Windows version and GPU has not yet been verified."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.19",
+  "websitePath": "updates/#release-0.1.0-alpha.19"
+}

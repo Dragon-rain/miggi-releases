@@ -1,0 +1,548 @@
+{
+  "defaultLocale": "en",
+  "documents": [
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "about",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 3458,
+          "locale": "en",
+          "path": "materials/about/en.80678317ebee689fcc6c0c5e64d56b66cd7e6dd4b1fe04e44c08aafd23021030.json",
+          "sha256": "80678317ebee689fcc6c0c5e64d56b66cd7e6dd4b1fe04e44c08aafd23021030",
+          "title": "An AI companion on your computer"
+        },
+        {
+          "bytes": 5270,
+          "locale": "ru",
+          "path": "materials/about/ru.08b577bfb788772ac79a7eb99c8832ef5e586639fd751932243c11e3a62893f7.json",
+          "sha256": "08b577bfb788772ac79a7eb99c8832ef5e586639fd751932243c11e3a62893f7",
+          "title": "ИИ-компаньон на вашем компьютере"
+        },
+        {
+          "bytes": 4154,
+          "locale": "ko",
+          "path": "materials/about/ko.4ecd82ec534d07a99ea7082a45fb53800415956ea77283d3eb326b19cda1eda6.json",
+          "sha256": "4ecd82ec534d07a99ea7082a45fb53800415956ea77283d3eb326b19cda1eda6",
+          "title": "내 컴퓨터에서 만나는 AI 동반자"
+        }
+      ],
+      "websitePath": ""
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "api-costs",
+      "kind": "pricing",
+      "pricingSnapshot": {
+        "checkedOn": "2026-11-05",
+        "currency": "USD",
+        "longContextInputMultiplier": 2,
+        "longContextOutputMultiplier": 1.5,
+        "longContextThreshold": 272000,
+        "models": [
+          {
+            "id": "gpt-6-luna",
+            "rates": [
+              100000,
+              10000,
+              125000,
+              250000,
+              500000
+            ]
+          },
+          {
+            "id": "gpt-6.1-terra",
+            "rates": [
+              1000000,
+              50000,
+              1250000,
+              2500000,
+              5000000
+            ]
+          },
+          {
+            "id": "gpt-6.1-sol",
+            "rates": [
+              2000000,
+              100000,
+              2500000,
+              5000000,
+              10000000
+            ]
+          },
+          {
+            "id": "gpt-6-astra",
+            "rates": [
+              10000000,
+              1000000,
+              12500000,
+              25000000,
+              50000000
+            ]
+          }
+        ],
+        "rateOrder": [
+          "input",
+          "cache-read",
+          "cache-write-30m",
+          "cache-write-12h",
+          "output"
+        ],
+        "staleAfterDays": 30,
+        "unit": "micro-USD-per-million-tokens",
+        "webSearchMicroUsdPerCall": 10000
+      },
+      "variants": [
+        {
+          "bytes": 4790,
+          "locale": "en",
+          "path": "materials/api-costs/en.5fe739f36c49f58af24f8431ae4e8a87a4fb705e90917ebd8cc826298a9f1512.json",
+          "sha256": "5fe739f36c49f58af24f8431ae4e8a87a4fb705e90917ebd8cc826298a9f1512",
+          "title": "Choose a model. Estimate the cost."
+        },
+        {
+          "bytes": 6378,
+          "locale": "ru",
+          "path": "materials/api-costs/ru.acd7a3457df417968f620b8d0430a8781c26ba230cd369bb16478728b9e0b741.json",
+          "sha256": "acd7a3457df417968f620b8d0430a8781c26ba230cd369bb16478728b9e0b741",
+          "title": "Выбери модель. Оцени расходы."
+        },
+        {
+          "bytes": 5060,
+          "locale": "ko",
+          "path": "materials/api-costs/ko.6542e013e66654849e80878d224a098ec53b07e9a654534b123f17344a76a789.json",
+          "sha256": "6542e013e66654849e80878d224a098ec53b07e9a654534b123f17344a76a789",
+          "title": "모델을 고르고 비용을 가늠해 보세요."
+        }
+      ],
+      "websitePath": "api/"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "guide-costs",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 1745,
+          "locale": "en",
+          "path": "materials/guide-costs/en.8fb3debf28deec14c2976a5f9ab9c628498beb71db1e895633f07b956dc0ac6e.json",
+          "sha256": "8fb3debf28deec14c2976a5f9ab9c628498beb71db1e895633f07b956dc0ac6e",
+          "title": "Billing and usage"
+        },
+        {
+          "bytes": 2525,
+          "locale": "ru",
+          "path": "materials/guide-costs/ru.d7cd7983b56ec66990d7ce0d5c027c7457c4830de433f79aa7fce89c018ee9a0.json",
+          "sha256": "d7cd7983b56ec66990d7ce0d5c027c7457c4830de433f79aa7fce89c018ee9a0",
+          "title": "Оплата и расход"
+        },
+        {
+          "bytes": 2059,
+          "locale": "ko",
+          "path": "materials/guide-costs/ko.1538bcdee653dd860cfb2ee2a080ee572099ae51e158c4abb15347ebf4956889.json",
+          "sha256": "1538bcdee653dd860cfb2ee2a080ee572099ae51e158c4abb15347ebf4956889",
+          "title": "요금 및 사용량"
+        }
+      ],
+      "websitePath": "guides/#costs"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "guide-ollama",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 1937,
+          "locale": "en",
+          "path": "materials/guide-ollama/en.0854a4b672de2c7db0159b336260c9d3f2f21d5aa99acbdbc465840bee642628.json",
+          "sha256": "0854a4b672de2c7db0159b336260c9d3f2f21d5aa99acbdbc465840bee642628",
+          "title": "Run a local model with Ollama"
+        },
+        {
+          "bytes": 2745,
+          "locale": "ru",
+          "path": "materials/guide-ollama/ru.3765fe760d4447a609271430a976cf219b8dd5ce95ccacb391091bb6844fa813.json",
+          "sha256": "3765fe760d4447a609271430a976cf219b8dd5ce95ccacb391091bb6844fa813",
+          "title": "Локальная модель через Ollama"
+        },
+        {
+          "bytes": 2208,
+          "locale": "ko",
+          "path": "materials/guide-ollama/ko.1c540ec64ccd161c91ee0592ebf79198d6d82338b8a84bf5c53513c708d60b4e.json",
+          "sha256": "1c540ec64ccd161c91ee0592ebf79198d6d82338b8a84bf5c53513c708d60b4e",
+          "title": "Ollama로 로컬 모델 실행"
+        }
+      ],
+      "websitePath": "guides/#ollama"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "guide-openai",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 2879,
+          "locale": "en",
+          "path": "materials/guide-openai/en.ac4d95a547dfabdae9bc74439fc75b642fa2311cdf0382f1e53e2b230d8a3a7c.json",
+          "sha256": "ac4d95a547dfabdae9bc74439fc75b642fa2311cdf0382f1e53e2b230d8a3a7c",
+          "title": "Connect OpenAI"
+        },
+        {
+          "bytes": 4410,
+          "locale": "ru",
+          "path": "materials/guide-openai/ru.fb9ad8af2255cf10294189082255198db098170a8f47a8968f38b57b315cf90d.json",
+          "sha256": "fb9ad8af2255cf10294189082255198db098170a8f47a8968f38b57b315cf90d",
+          "title": "Подключение OpenAI"
+        },
+        {
+          "bytes": 3337,
+          "locale": "ko",
+          "path": "materials/guide-openai/ko.f564b7d45e762517f4eeb00dad6829b26eef371ff1848a91964451f1ddcbb2d6.json",
+          "sha256": "f564b7d45e762517f4eeb00dad6829b26eef371ff1848a91964451f1ddcbb2d6",
+          "title": "OpenAI 연결"
+        }
+      ],
+      "websitePath": "guides/#openai"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "guide-safety",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 1879,
+          "locale": "en",
+          "path": "materials/guide-safety/en.4318deb39a686ad056bbe0b6b78c4c1fa809c3aa1f5f6961b8cac89d28161ffa.json",
+          "sha256": "4318deb39a686ad056bbe0b6b78c4c1fa809c3aa1f5f6961b8cac89d28161ffa",
+          "title": "Keys and data"
+        },
+        {
+          "bytes": 2616,
+          "locale": "ru",
+          "path": "materials/guide-safety/ru.e7944d201586434f8eb8e9d7c291d6cb6dba93ca01b60c7d14cb7e491444a422.json",
+          "sha256": "e7944d201586434f8eb8e9d7c291d6cb6dba93ca01b60c7d14cb7e491444a422",
+          "title": "Ключи и данные"
+        },
+        {
+          "bytes": 2130,
+          "locale": "ko",
+          "path": "materials/guide-safety/ko.411f54153bf995d6da5f18d6a11e47d3c4d84f4251cb4207fb11e67051aa7824.json",
+          "sha256": "411f54153bf995d6da5f18d6a11e47d3c4d84f4251cb4207fb11e67051aa7824",
+          "title": "키와 데이터 보호"
+        }
+      ],
+      "websitePath": "guides/#safety"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "published-site"
+      },
+      "id": "installation",
+      "kind": "guide",
+      "variants": [
+        {
+          "bytes": 4006,
+          "locale": "en",
+          "path": "materials/installation/en.c72e9caa4d6a3abaf0e430e619ebe141ace39978292ee7d677ab30ae77405c7f.json",
+          "sha256": "c72e9caa4d6a3abaf0e430e619ebe141ace39978292ee7d677ab30ae77405c7f",
+          "title": "Alpha test"
+        },
+        {
+          "bytes": 6308,
+          "locale": "ru",
+          "path": "materials/installation/ru.34730bbcc2c99ad082aaa433571cb88860a1f402ac9266903da578e82a78bca7.json",
+          "sha256": "34730bbcc2c99ad082aaa433571cb88860a1f402ac9266903da578e82a78bca7",
+          "title": "Альфа-тест"
+        },
+        {
+          "bytes": 4738,
+          "locale": "ko",
+          "path": "materials/installation/ko.a4c315045a09f4e58edf78ffa8c20c980b6a7636a275f3a4404012075bd64a11.json",
+          "sha256": "a4c315045a09f4e58edf78ffa8c20c980b6a7636a275f3a4404012075bd64a11",
+          "title": "알파 테스트"
+        }
+      ],
+      "websitePath": "alpha/"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.12",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.12",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.12/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.12-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.12/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.12-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-24",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.12"
+      },
+      "variants": [
+        {
+          "bytes": 3979,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.12/en.6ed3ce1ee229435f11e7f3ed354cddae66e31a305614040966f2948a2fd7c8c0.json",
+          "sha256": "6ed3ce1ee229435f11e7f3ed354cddae66e31a305614040966f2948a2fd7c8c0",
+          "title": "Alpha 0.1.0-alpha.12"
+        },
+        {
+          "bytes": 5680,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.12/ru.fe4182a4320c89a316857b53a59ed160c0a72f30517c0425d85b10439d1bc22c.json",
+          "sha256": "fe4182a4320c89a316857b53a59ed160c0a72f30517c0425d85b10439d1bc22c",
+          "title": "Альфа 0.1.0-alpha.12"
+        },
+        {
+          "bytes": 4502,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.12/ko.ff25cf8c18eb1095bf929fcd8e4577bd2f25ba1a4e86f2c169155bbb6bd05b05.json",
+          "sha256": "ff25cf8c18eb1095bf929fcd8e4577bd2f25ba1a4e86f2c169155bbb6bd05b05",
+          "title": "알파 0.1.0-alpha.12"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.12"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.18",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.18",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.18/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.18-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.18/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.18-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-24",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.18"
+      },
+      "variants": [
+        {
+          "bytes": 3860,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.18/en.feb2787327cbe74e30cc742a6e3fb5a6305eb1230cda19ec90cb2510ab0627e3.json",
+          "sha256": "feb2787327cbe74e30cc742a6e3fb5a6305eb1230cda19ec90cb2510ab0627e3",
+          "title": "Alpha 0.1.0-alpha.18"
+        },
+        {
+          "bytes": 5675,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.18/ru.bc16acdf22df8a56d569e5f54f62684b0b29b2ba417149cc972f00e480c27116.json",
+          "sha256": "bc16acdf22df8a56d569e5f54f62684b0b29b2ba417149cc972f00e480c27116",
+          "title": "Альфа 0.1.0-alpha.18"
+        },
+        {
+          "bytes": 4473,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.18/ko.d7923f8cbe6cc86d87bcbd8729b2209eef9f84bd88aae7ea82c4aaf535673316.json",
+          "sha256": "d7923f8cbe6cc86d87bcbd8729b2209eef9f84bd88aae7ea82c4aaf535673316",
+          "title": "알파 0.1.0-alpha.18"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.18"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.19",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.19",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.19/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.19-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-25",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.19"
+      },
+      "variants": [
+        {
+          "bytes": 3342,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.19/en.4b98471286e04ccca1e96b38ee358fbdc3d236b1f65ff36c2a6ed12d2255a277.json",
+          "sha256": "4b98471286e04ccca1e96b38ee358fbdc3d236b1f65ff36c2a6ed12d2255a277",
+          "title": "Alpha 0.1.0-alpha.19"
+        },
+        {
+          "bytes": 4751,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.19/ru.c73c2269a9debd50fdecf81f2c4c6d55dee661fcea877ae78fff864566792501.json",
+          "sha256": "c73c2269a9debd50fdecf81f2c4c6d55dee661fcea877ae78fff864566792501",
+          "title": "Альфа 0.1.0-alpha.19"
+        },
+        {
+          "bytes": 3750,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.19/ko.96723ecf0324768604e28fdaf828467684b02742fc9f250a10e7b120f63b139e.json",
+          "sha256": "96723ecf0324768604e28fdaf828467684b02742fc9f250a10e7b120f63b139e",
+          "title": "알파 0.1.0-alpha.19"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.19"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.2",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.2",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.2/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.2-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-21",
+        "kind": "download-test",
+        "version": "0.1.0-alpha.2"
+      },
+      "variants": [
+        {
+          "bytes": 2423,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.2/en.98668e9aa9c9b84b44dc3f8f6c63b873864d6fc11f44c4a976be5048d164b144.json",
+          "sha256": "98668e9aa9c9b84b44dc3f8f6c63b873864d6fc11f44c4a976be5048d164b144",
+          "title": "Download test 0.1.0-alpha.2"
+        },
+        {
+          "bytes": 3291,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.2/ru.044b1c3ed3597f39d1616331e8a41b924c65a84f59f6d8f5c5c73827b9d63ccd.json",
+          "sha256": "044b1c3ed3597f39d1616331e8a41b924c65a84f59f6d8f5c5c73827b9d63ccd",
+          "title": "Тест скачивания 0.1.0-alpha.2"
+        },
+        {
+          "bytes": 2715,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.2/ko.a5b88726929511c130e315068d1b407b8ae95f06d88469d1e124722fd9695143.json",
+          "sha256": "a5b88726929511c130e315068d1b407b8ae95f06d88469d1e124722fd9695143",
+          "title": "다운로드 테스트 0.1.0-alpha.2"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.2"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.38",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.38",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.38/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.38-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.38/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.38-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-31",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.38"
+      },
+      "variants": [
+        {
+          "bytes": 4304,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.38/en.0b5b4a3bb47b0c9240fd319c05a4b0505e307a8c29c58474ae360538f75b5d12.json",
+          "sha256": "0b5b4a3bb47b0c9240fd319c05a4b0505e307a8c29c58474ae360538f75b5d12",
+          "title": "Alpha 0.1.0-alpha.38"
+        },
+        {
+          "bytes": 6548,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.38/ru.424ea659f2e9edecfeab836e32af41857a189b762f36b3932df18fbea601d1da.json",
+          "sha256": "424ea659f2e9edecfeab836e32af41857a189b762f36b3932df18fbea601d1da",
+          "title": "Альфа 0.1.0-alpha.38"
+        },
+        {
+          "bytes": 4745,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.38/ko.77af26dc22d69f526d6560c31c7fc46dbece6e77c5565396e31833dafcae5f27.json",
+          "sha256": "77af26dc22d69f526d6560c31c7fc46dbece6e77c5565396e31833dafcae5f27",
+          "title": "알파 0.1.0-alpha.38"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.38"
+    },
+    {
+      "applicability": {
+        "releaseVersion": "0.1.0-alpha.7",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.7",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.7/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.7-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-10-21",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.7"
+      },
+      "variants": [
+        {
+          "bytes": 2658,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.7/en.ab7c17594824f3cfc1afcb012f0909551b010648d9cbf9c971bf9b5155673e95.json",
+          "sha256": "ab7c17594824f3cfc1afcb012f0909551b010648d9cbf9c971bf9b5155673e95",
+          "title": "Alpha 0.1.0-alpha.7"
+        },
+        {
+          "bytes": 3621,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.7/ru.33462bc7d1fe44a497da49bd78cd074eab0d986e0de8b71ff82338d6ab4760fc.json",
+          "sha256": "33462bc7d1fe44a497da49bd78cd074eab0d986e0de8b71ff82338d6ab4760fc",
+          "title": "Альфа 0.1.0-alpha.7"
+        },
+        {
+          "bytes": 2973,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.7/ko.b1ff2e52a42cdf2546a6e7c4a9665b78a436b2afcfb5c2bfefaba91129651a49.json",
+          "sha256": "b1ff2e52a42cdf2546a6e7c4a9665b78a436b2afcfb5c2bfefaba91129651a49",
+          "title": "알파 0.1.0-alpha.7"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.7"
+    }
+  ],
+  "latestReleases": {
+    "alpha": "0.1.0-alpha.38"
+  },
+  "localeFallbackOrder": [
+    "en",
+    "ru",
+    "ko"
+  ],
+  "product": "miggi",
+  "purpose": "reference-only",
+  "repository": "Dragon-rain/miggi-releases",
+  "revision": "465cc2e1d0a93d36c7be59026a9c28ef7dba4dd94cc80ef159aefb9fd0bbb0ae",
+  "schemaVersion": 1,
+  "sourceSnapshotSha256": "dcfc5e32b4c8e08ec1092dee64fc9602f006a90d95c3b315c9dd08c15d1105c1"
+}

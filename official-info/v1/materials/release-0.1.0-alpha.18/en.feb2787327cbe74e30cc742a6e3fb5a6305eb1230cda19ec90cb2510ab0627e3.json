@@ -1,0 +1,76 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.18",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.18",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.18"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.18/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.18-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.18/MiggiDesktop-U2-HOST-QA-0.1.0-alpha.18-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-10-24",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.18"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.18",
+      "paragraphs": [
+        "A new personal alpha built from clean main: installation and launch fixes, a unified flame icon, and clearer app removal.",
+        "The supported update source is the published alpha.12. A fresh installation and the installed transition to alpha.18 require separate live testing.",
+        "Home and memory are kept by default when removing the program. Additional memory cleanup requires separate confirmation and does not remove documents, screenshots, keys, or external backups."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "A consistent symbolic flame icon for the app, tray, and installer.",
+        "The clear name MiggiDesktop-Uninstall.exe in UAC and a choice to keep memory or separately confirm removal of verified service data.",
+        "Normal-user launch after installation and automatic RTSS compatibility for Miggi only."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "Reinstallation in the same folder uses verified recovery, without manually deleting protected records.",
+        "Fixed early Godot launch and a conflict between updater arguments and the Core launch check.",
+        "UPDATE_IO diagnostics preserve the exact stage and safe numeric codes, including when the UI does not open."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature: “Unknown publisher” or SmartScreen blocking is possible. Do not bypass SmartScreen or disable Windows protection. TUF does not replace a Windows signature.",
+        "This update targets the exact published alpha.12 package. Alpha.7 first requires a separate, verified manual transition to alpha.12; unknown and intermediate installations are unsupported by this installer.",
+        "Alpha.18 itself has not yet been installed in a live test: 842 offline tests, 27 UI scenarios, and 16 document operations do not replace live acceptance. Installation, setup, the clear UAC name, and app removal while retaining memory were tested separately on alpha.17.",
+        "Memory removal, uninstall through Windows Settings, a different UAC administrator, reinstall after a fresh removal, and the full installed update cycle still need live testing.",
+        "Do not delete Home, the program, or protected markers to bypass a refusal. Use a separate test Home for the first installation test.",
+        "Technical minimum: Windows 10 x86_64 build 17763. Compatibility with every Windows version and GPU has not yet been verified."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.18",
+  "websitePath": "updates/#release-0.1.0-alpha.18"
+}
