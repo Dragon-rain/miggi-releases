@@ -532,6 +532,47 @@
     },
     {
       "applicability": {
+        "releaseVersion": "0.1.0-alpha.48",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.48",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-11-08",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.48"
+      },
+      "variants": [
+        {
+          "bytes": 3370,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.48/en.931420c6a04631c00285d8bd68ff7ead66c676e8d69a87514e09d624673a3123.json",
+          "sha256": "931420c6a04631c00285d8bd68ff7ead66c676e8d69a87514e09d624673a3123",
+          "title": "Alpha 0.1.0-alpha.48"
+        },
+        {
+          "bytes": 5343,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.48/ru.ed2e6ce412d9787f16d9fd062530cc0619581f141a675fee4a57b61734a6df19.json",
+          "sha256": "ed2e6ce412d9787f16d9fd062530cc0619581f141a675fee4a57b61734a6df19",
+          "title": "Alpha 0.1.0-alpha.48"
+        },
+        {
+          "bytes": 3699,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.48/ko.41f3cc1dd72600b7b0ae09d1cfe71595fb974e1170574275ea0ae6bda62ac947.json",
+          "sha256": "41f3cc1dd72600b7b0ae09d1cfe71595fb974e1170574275ea0ae6bda62ac947",
+          "title": "Alpha 0.1.0-alpha.48"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.48"
+    },
+    {
+      "applicability": {
         "releaseVersion": "0.1.0-alpha.7",
         "type": "release"
       },
@@ -573,7 +614,7 @@
     }
   ],
   "latestReleases": {
-    "alpha": "0.1.0-alpha.47"
+    "alpha": "0.1.0-alpha.48"
   },
   "localeFallbackOrder": [
     "en",
@@ -583,7 +624,7 @@
   "product": "miggi",
   "purpose": "reference-only",
   "repository": "Dragon-rain/miggi-releases",
-  "revision": "078b479b57c52cca33414f6dd18fdcdbf42ee2d64b44cadd4978c1602a3f5b06",
+  "revision": "e0100842f955723eeb27a9239147babbe86e4dabbe4bd9a0b260fb7cc23791c2",
   "schemaVersion": 1,
-  "sourceSnapshotSha256": "47116d379dd048c7cbbdeffc0b426d78bde282b5a03e2b9908e4b1247f745f76"
+  "sourceSnapshotSha256": "ee9eea8ac8ed2d4724e9a1c974c9cc644f9254c3489e8c660fccd58ff0a72848"
 }

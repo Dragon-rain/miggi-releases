@@ -1,0 +1,65 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.48",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.48",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.48"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-11-08",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.48"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Overview",
+      "paragraphs": [
+        "Fixes after alpha.47: shared interface scale, easier scrolling, a new composer and stable Miggi dragging.",
+        "Fresh install or install over the exact public alpha.47 package; memory stays V039. Direct upgrades from other older builds are not claimed.",
+        "Roman will check two-monitor capture and a real microphone on his main PC. This is a personal test alpha, not a stable release."
+      ]
+    },
+    {
+      "heading": "added",
+      "paragraphs": [
+        "Shared 80–180% interface scale for chat, settings, files, statistics, diagnostics, updates and other app windows. Avatar size remains independent.",
+        "Settings now include Miggi size and interface scale; sections scroll together beneath a compact heading.",
+        "Thin scrollbars widen on hover and while dragging, with a larger hit area.",
+        "Voice input supports cancel, stop into a draft, and explicit transcribe-and-send. No duplicate buttons; long input and tools share one composer."
+      ]
+    },
+    {
+      "heading": "fixed",
+      "paragraphs": [
+        "Corrected monitor-coordinate mapping for selected-region capture, including left and upper monitors; display-layout changes cancel stale selections.",
+        "Diagnostics retain safe capture error codes and stages without pictures, conversation text or keys.",
+        "Fixed confirmation text, diagnostic report readability, selection and coloured emoji rendering in Warm Linen without replacing characters.",
+        "Avatar dragging uses physical coordinates and DPI; expanded chat moves with it without accidental avatar resizing.",
+        "Quick input fades out smoothly; refined composer layout, history-edge fading and outdated reminder help text."
+      ]
+    },
+    {
+      "heading": "knownIssues",
+      "paragraphs": [
+        "No Windows Authenticode signature. Do not bypass SmartScreen/SAC or disable protection. Update-channel signatures are not a Windows publisher signature.",
+        "Real two-monitor capture, microphone use and an installed alpha.47 → alpha.48 transition await manual acceptance. Dev and synthetic checks are not replacements.",
+        "The installer pins the exact public alpha.47 source. Older versions need their documented upgrade route; do not delete protected records to bypass refusal.",
+        "Portable full-Home backup and experimental recovery are not included. The app is free; AI requests are billed through your own API key."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.48",
+  "websitePath": "updates/#release-0.1.0-alpha.48"
+}

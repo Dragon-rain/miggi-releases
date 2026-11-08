@@ -1,0 +1,65 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.48",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.48",
+  "kind": "release",
+  "locale": "ko",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.48"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.48/Miggi-0.1.0-alpha.48-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-11-08",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.48"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "Overview",
+      "paragraphs": [
+        "Alpha.47 이후 수정: 공통 인터페이스 배율, 편한 스크롤, 새 입력 패널과 안정적인 미기 이동입니다.",
+        "새 설치 또는 정확한 공개 alpha.47 위에 설치할 수 있어요. 기억 형식은 V039 그대로이며 다른 구버전의 직접 업그레이드는 보장하지 않아요.",
+        "두 모니터 화면 캡처와 실제 마이크는 Roman의 주 PC에서 확인할 예정이에요. 안정판이 아닌 개인 테스트 알파입니다."
+      ]
+    },
+    {
+      "heading": "added",
+      "paragraphs": [
+        "채팅, 설정, 파일, 통계, 진단, 업데이트 등 자체 창에 공통 80–180% 배율을 적용했어요. 아바타 크기는 별도예요.",
+        "설정에서 미기 크기와 인터페이스 배율을 선택하며 짧은 제목 아래 모든 항목을 함께 스크롤해요.",
+        "가느다란 스크롤 막대가 마우스를 올리거나 끌 때 넓어져 쉽게 잡을 수 있어요.",
+        "음성 입력에 취소, 초안으로 정지, 명시적인 인식 후 전송을 추가했어요. 중복 버튼 없이 긴 입력과 도구를 한 패널에 배치했어요."
+      ]
+    },
+    {
+      "heading": "fixed",
+      "paragraphs": [
+        "왼쪽과 위쪽 모니터를 포함한 영역 캡처 좌표를 수정하고 화면 배치가 바뀌면 이전 선택을 취소해요.",
+        "진단 보고서에 이미지, 대화 내용과 키 없이 안전한 캡처 오류 코드와 단계를 남겨요.",
+        "따뜻한 리넨 테마의 확인 문구, 진단 보고서, 텍스트 선택과 컬러 이모지 표시를 수정했어요. 문자는 바꾸지 않아요.",
+        "물리 좌표와 DPI에 맞게 아바타를 이동하며 펼친 채팅도 함께 움직여요. 실수로 아바타 크기가 바뀌지 않아요.",
+        "빠른 입력이 부드럽게 사라지며 입력 패널, 기록 가장자리 페이드와 오래된 알림 설명을 다듬었어요."
+      ]
+    },
+    {
+      "heading": "knownIssues",
+      "paragraphs": [
+        "Windows Authenticode 서명이 없어요. SmartScreen/SAC를 우회하거나 보안을 끄지 마세요. 업데이트 채널 서명은 Windows 게시자 서명이 아니에요.",
+        "실제 두 모니터 캡처, 마이크와 설치된 alpha.47 → alpha.48 전환은 수동 확인 예정이에요. 개발 및 합성 테스트로 대신하지 않아요.",
+        "설치 프로그램은 정확한 공개 alpha.47을 확인해요. 구버전은 문서의 업그레이드 경로를 따르며 거부를 우회하려고 보호 기록을 지우지 마세요.",
+        "전체 Home의 휴대용 백업과 실험적 복구는 포함되지 않아요. 앱은 무료이며 AI 요청은 사용자의 API 키로 과금돼요."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.48",
+  "websitePath": "updates/#release-0.1.0-alpha.48"
+}
