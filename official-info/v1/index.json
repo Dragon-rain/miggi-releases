@@ -254,31 +254,31 @@
     },
     {
       "applicability": {
-        "releaseVersion": "0.1.0-alpha.38",
+        "releaseVersion": "0.1.0-alpha.47",
         "type": "published-site"
       },
       "id": "installation",
       "kind": "guide",
       "variants": [
         {
-          "bytes": 4006,
+          "bytes": 4234,
           "locale": "en",
-          "path": "materials/installation/en.c72e9caa4d6a3abaf0e430e619ebe141ace39978292ee7d677ab30ae77405c7f.json",
-          "sha256": "c72e9caa4d6a3abaf0e430e619ebe141ace39978292ee7d677ab30ae77405c7f",
+          "path": "materials/installation/en.6304d732ef9b6eebad9856108b15052865e385e43ff5c166b1ad37d3c5d20873.json",
+          "sha256": "6304d732ef9b6eebad9856108b15052865e385e43ff5c166b1ad37d3c5d20873",
           "title": "Alpha test"
         },
         {
-          "bytes": 6308,
+          "bytes": 6654,
           "locale": "ru",
-          "path": "materials/installation/ru.34730bbcc2c99ad082aaa433571cb88860a1f402ac9266903da578e82a78bca7.json",
-          "sha256": "34730bbcc2c99ad082aaa433571cb88860a1f402ac9266903da578e82a78bca7",
+          "path": "materials/installation/ru.c87247348ecdc17f7d8165fceea669dcba3b590bee8149b6405dca153f99e7b3.json",
+          "sha256": "c87247348ecdc17f7d8165fceea669dcba3b590bee8149b6405dca153f99e7b3",
           "title": "Альфа-тест"
         },
         {
-          "bytes": 4738,
+          "bytes": 4948,
           "locale": "ko",
-          "path": "materials/installation/ko.a4c315045a09f4e58edf78ffa8c20c980b6a7636a275f3a4404012075bd64a11.json",
-          "sha256": "a4c315045a09f4e58edf78ffa8c20c980b6a7636a275f3a4404012075bd64a11",
+          "path": "materials/installation/ko.a975c3f13e88c1f60f138ba006cf15e7e6c14e11e5e6d3375732f5d0513b9928.json",
+          "sha256": "a975c3f13e88c1f60f138ba006cf15e7e6c14e11e5e6d3375732f5d0513b9928",
           "title": "알파 테스트"
         }
       ],
@@ -491,6 +491,47 @@
     },
     {
       "applicability": {
+        "releaseVersion": "0.1.0-alpha.47",
+        "type": "release"
+      },
+      "id": "release-0.1.0-alpha.47",
+      "kind": "release",
+      "release": {
+        "artifactUrls": [
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.47/Miggi-0.1.0-alpha.47-windows-x86_64.exe",
+          "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.47/Miggi-0.1.0-alpha.47-windows-x86_64.exe.sha256"
+        ],
+        "date": "2026-11-08",
+        "kind": "alpha",
+        "version": "0.1.0-alpha.47"
+      },
+      "variants": [
+        {
+          "bytes": 6858,
+          "locale": "en",
+          "path": "materials/release-0.1.0-alpha.47/en.bbed804aef4d3d54cd52fa7fe2ae7fc62a237b78eb83252022097ae5f263c8d3.json",
+          "sha256": "bbed804aef4d3d54cd52fa7fe2ae7fc62a237b78eb83252022097ae5f263c8d3",
+          "title": "Alpha 0.1.0-alpha.47"
+        },
+        {
+          "bytes": 11522,
+          "locale": "ru",
+          "path": "materials/release-0.1.0-alpha.47/ru.bf40555a4034d70d03ffcbc2fe8297b6bb540ff0097e8477f4528859cebc1e20.json",
+          "sha256": "bf40555a4034d70d03ffcbc2fe8297b6bb540ff0097e8477f4528859cebc1e20",
+          "title": "Альфа 0.1.0-alpha.47"
+        },
+        {
+          "bytes": 7742,
+          "locale": "ko",
+          "path": "materials/release-0.1.0-alpha.47/ko.d146f8eea872069a21870facfc18c78b52ba118253e0c0f0d1817a28bcdc9ced.json",
+          "sha256": "d146f8eea872069a21870facfc18c78b52ba118253e0c0f0d1817a28bcdc9ced",
+          "title": "알파 0.1.0-alpha.47"
+        }
+      ],
+      "websitePath": "updates/#release-0.1.0-alpha.47"
+    },
+    {
+      "applicability": {
         "releaseVersion": "0.1.0-alpha.7",
         "type": "release"
       },
@@ -532,7 +573,7 @@
     }
   ],
   "latestReleases": {
-    "alpha": "0.1.0-alpha.38"
+    "alpha": "0.1.0-alpha.47"
   },
   "localeFallbackOrder": [
     "en",
@@ -542,7 +583,7 @@
   "product": "miggi",
   "purpose": "reference-only",
   "repository": "Dragon-rain/miggi-releases",
-  "revision": "465cc2e1d0a93d36c7be59026a9c28ef7dba4dd94cc80ef159aefb9fd0bbb0ae",
+  "revision": "078b479b57c52cca33414f6dd18fdcdbf42ee2d64b44cadd4978c1602a3f5b06",
   "schemaVersion": 1,
-  "sourceSnapshotSha256": "dcfc5e32b4c8e08ec1092dee64fc9602f006a90d95c3b315c9dd08c15d1105c1"
+  "sourceSnapshotSha256": "47116d379dd048c7cbbdeffc0b426d78bde282b5a03e2b9908e4b1247f745f76"
 }

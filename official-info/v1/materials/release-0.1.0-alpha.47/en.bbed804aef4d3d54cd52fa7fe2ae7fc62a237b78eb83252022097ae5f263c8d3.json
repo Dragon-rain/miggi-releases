@@ -1,0 +1,89 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.47",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.47",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.47"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.47/Miggi-0.1.0-alpha.47-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.47/Miggi-0.1.0-alpha.47-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-11-08",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.47"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.47",
+      "paragraphs": [
+        "A major update since alpha.38: conversational reminders, a notification inbox, Room state, token statistics and the Warm Linen light theme.",
+        "The exact public alpha.38 package supports a manual installer run in the existing folder, without removing the app or Home. V031 → V039 memory migration is a separate, confirmed operation with verified local snapshots.",
+        "This is a test alpha, not a stable release: full end-to-end acceptance of this exact alpha.47 has been deferred. Local package checks and a signed HTTPS test download do not replace installed acceptance.",
+        "Alpha.39–46 were not separate public releases. These notes collect development and QA changes since alpha.38. The app remains free; cloud requests are billed through your own API key."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "Time and event awareness: system time zone, relative dates and reminders that the AI proposes to create, find, reschedule or cancel based on meaning, without keyword-triggered actions.",
+        "One-time reminders as ordinary Miggi messages in their Room, with creation confirmation and notice of a future API request. Dates without a time default to 09:00; explicit nighttime requests are allowed. Overdue reminders are checked when the app returns.",
+        "A bell with shared notification history, unread preview, navigation to the original message and individual or mark-all-read controls. A notification visible in the active chat is marked read after 1.5 seconds.",
+        "Room state: current decisions, constraints, open questions and next steps linked to source messages. Updated with the reply; closed entries and long sources can be retrieved on request.",
+        "A separate token-statistics window for the day, week and month, with optional model breakdown. Estimated costs remain in the website calculator.",
+        "An in-app capability guide separate from Miggi’s identity and origin; official GitHub guides and news are read with permission and treated as reference material.",
+        "The Warm Linen light theme, a busy indicator when switching themes in settings, and distinct visual treatments for your messages and Miggi’s replies.",
+        "A refined Miggi identity: an ancient spirit of fire, hope and dreams. Replies and reminder wording share one personality source; the full description is loaded on request.",
+        "Startup pre-rendering of UI and animations, a fixed lower chat toggle beside Miggi, external zoom controls hidden until hover, and Ctrl+/Ctrl− shortcuts.",
+        "Installer and updater infrastructure for explicitly confirmed memory-format transitions. This supports future verified releases, not an automatic alpha.38 → alpha.47 update."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "Optimised Brain request schemas, phase-specific instructions and bounded evidence retrieval to reduce technical overhead without deleting canonical history or identity.",
+        "Improved reminder-memory continuity across Rooms: saving, displaying, reading and completing a task are distinct facts. Historical records without display evidence remain unknown.",
+        "Reminder confirmations leave one final result instead of a chain of service messages, and use your selected text scale.",
+        "Tool, file-study and memory permissions and reminders share rounded orange frames in chat and bubbles; spacing, duplicate headings and button labels are corrected.",
+        "Fixed lost input and scrolling after notification navigation, unread-badge updates and history jumps after confirmations.",
+        "Improved the first chat opening, window transitions and the composer seam; shortened tooltips, warmed up resources and made theme changes more responsive.",
+        "Fixed long-message reads and Room-state continuation against a stale source window; clarified context-compaction diagnostic states.",
+        "Core asks Windows for a free local port instead of choosing randomly; startup diagnostics preserve the phase and safe error codes. Update-window responses and the compact memory-migration confirmation are improved."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "The EXE has no Windows Authenticode signature. Do not bypass SmartScreen or Smart App Control or disable Windows protection; TUF is not a Windows publisher signature.",
+        "The first move from exact alpha.38 is manual, not through its old updater. Other old and test builds need a separate compatibility check. The signed baseline describes only alpha.47; future updates need a prepared exact-source release.",
+        "Fresh installation, installed alpha.38 → alpha.47 and the full signed GUI update with deferred migration have not been tested on this exact alpha.47. Historical alpha.44–46 checks are not acceptance of this file.",
+        "Keep an independent copy of important data before migration. Local database snapshots exclude Home files and Windows keys and are not a portable backup. Do not open V039 with an older app or delete protected records to bypass a refusal.",
+        "Experimental encrypted backups and the recovery utility are disabled. The persistent visual House and a portable full-Home backup are not implemented; the ordinary database is not encrypted in full by the app.",
+        "Technical minimum: Windows 10 x86_64 build 17763. The full Windows/GPU/DPI matrix and all long-session behaviour remain unverified. Available tools depend on the selected AI connection."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.47",
+  "websitePath": "updates/#release-0.1.0-alpha.47"
+}

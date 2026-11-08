@@ -17,7 +17,24 @@ Personal-alpha EXEs currently have no Windows Authenticode signature. TUF protec
 updates but does not remove Windows UAC, SmartScreen or organizational policy.
 Do not bypass OS protections. First installation is a separate bootstrap step.
 
-The current personal-alpha candidate is `0.1.0-alpha.38`, built from clean source
+The current personal-alpha candidate is `0.1.0-alpha.47`, built from clean source
+`8988d40e7dd3fe91a92b55040733f9c940eefb4e`, schema V039 / protocol 0.19.
+The public manual installer is 74614654 bytes, SHA-256
+`a17d3e165f631fe3f50c553cf250387649a545c2898cf837cb29fd0f3529783f`.
+It supports first installation or a MANUAL run over the exact public alpha.38
+build `u1-79f6fc058bfe-b163ceb380bb`, inventory SHA-256
+`2d62a5debff5f0edfc1cb4c0e8bb5e0f51b033366cc28f1ebb4836063f995933`.
+Keep the app and Home; confirm V031-to-V039 migration separately with verified
+local snapshots. The old alpha.38 updater does not support this transition.
+The signed format2 baseline pins ONLY alpha.47 itself; future B requires an
+exact-source installer and signed descriptor. This is NOT the QA43-to-47 target.
+The exact alpha.47 fresh/installed/bootstrap/full deferred GUI update acceptance
+is deferred, not PASS. EXE is NotSigned; do not bypass Windows protections.
+Release notes are available in English, Russian and Korean. The reference-only
+official-info catalog includes this release and its updated install guide;
+reference content is not update authority. Old artifacts and metadata are retained.
+
+Previous personal-alpha baseline `0.1.0-alpha.38`, built from clean source
 `79f6fc058bfeebd856fffbcb7183a3d8632a3804`, schema V031 / protocol 0.15.
 It supports fresh installation and a MANUAL run over the exact alpha.20 package
 `u1-0a7f426ad8e8-c710210d2310`, inventory SHA-256
