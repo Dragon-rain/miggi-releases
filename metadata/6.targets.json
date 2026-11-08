@@ -1,0 +1,32 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 6,
+    "expires": "2027-05-07T05:20:42.660398600Z",
+    "targets": {
+      "release.json": {
+        "length": 1321,
+        "hashes": {
+          "sha256": "06ab57a02caa40996f6e9e4268438b870bac15be99ddc7b470aed08b565ba5e7"
+        }
+      },
+      "Miggi-0.1.0-alpha.47-windows-x86_64.exe": {
+        "length": 74614619,
+        "hashes": {
+          "sha256": "2ad463252cbd8da1cc4e1dd2b5f6f0771d749b341fe0c0426103c61d904bdac5"
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "ebb103e0b27baf967eb4bf7f72b17b1b25f8dcf1538c7584fa0c4ca66fae4837",
+      "sig": "3cb87065017ad25ad32502d27eab3d386d1b98768e305b24ef6b0350674685d65e7bd46b1f4c2d41b260c1fcedb96c2f1c667261e55e25d902dd97b209a5e50a"
+    }
+  ]
+}
