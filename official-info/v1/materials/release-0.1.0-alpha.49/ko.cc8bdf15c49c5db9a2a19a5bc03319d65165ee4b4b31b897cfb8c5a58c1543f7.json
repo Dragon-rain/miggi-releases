@@ -1,0 +1,72 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.49",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.49",
+  "kind": "release",
+  "locale": "ko",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.49"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.49/Miggi-0.1.0-alpha.49-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.49/Miggi-0.1.0-alpha.49-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-11-12",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.49"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.49",
+      "paragraphs": [
+        "전에 보낸 미기 화면 캡처를 찾아 원본 이미지로 다시 열 수 있어요. 입력 패널과 따뜻한 리넨 테마도 다듬었어요.",
+        "정확한 공개 alpha.48에서 확인 → 다운로드 → 업데이트 및 다시 시작으로 진행하세요. 기억 형식은 V039 그대로이며 새 이전 과정은 필요 없어요.",
+        "개인 테스트 알파예요. 실제 GUI의 재열람과 재시작 검사는 통과했으며, 설치된 alpha.48 → alpha.49 업데이트는 Roman이 주 PC에서 확인할 예정이에요."
+      ]
+    },
+    {
+      "heading": "파일 바이트의 일치 여부를 확인합니다. 게시자의 디지털 서명을 대신하지 않습니다.",
+      "paragraphs": [
+        "Windows 게시자 서명이 없습니다."
+      ]
+    },
+    {
+      "heading": "알파",
+      "paragraphs": [
+        "업데이트를 자동으로 확인하며 다운로드와 설치에는 확인이 필요합니다."
+      ]
+    },
+    {
+      "heading": "추가",
+      "paragraphs": [
+        "원래 메시지·대화, 첫 번째 또는 최근 캡처, 페이지 이동으로 과거 캡처를 찾을 수 있어요. AI는 새 화면을 찍지 않고 검증된 원본 픽셀을 요청할 수 있어요."
+      ]
+    },
+    {
+      "heading": "수정",
+      "paragraphs": [
+        "첨부 삭제 버튼에 마우스를 올리면 단색으로 가리지 않고 미리보기를 반투명하게 어둡게 해요.",
+        "사용자 정의 툴팁에 현재 테마의 글자색과 읽기 쉬운 불투명 배경을 명시했어요. 일반적인 빈 툴팁은 빈 패널을 만들지 않아요.",
+        "텍스트·음성 입력 버튼의 크기와 간격을 통일했어요. 정지와 전송은 같은 자리를 유지하며, 취소는 아바타 위치와 무관하게 입력 영역 왼쪽 시작점에 있어요."
+      ]
+    },
+    {
+      "heading": "알려진 제한 사항",
+      "paragraphs": [
+        "Windows Authenticode 서명이 없어요. SmartScreen/SAC를 우회하거나 보안을 끄지 마세요. 업데이트 채널 서명은 Windows 게시자 서명이 아니에요.",
+        "보낸 화면 캡처의 기존 보관 기간은 30일이에요. 삭제·변경되거나 만료된 원본을 미리보기로 복구할 수 없으며, 이미지 내용의 의미 검색은 아니에요.",
+        "재시작 후 AI가 캡처를 찾기 전에 불필요한 검색을 더 할 수 있어요. 모든 경로가 최적화되었다는 뜻은 아니며 효율 개선 대상으로 남겨 두었어요.",
+        "새 설치와 설치된 alpha.48 → alpha.49 경로는 수동 확인 예정이에요. 업데이트 후 테마 초기화 제보 등 다른 TODO는 수정 완료로 선언하지 않아요."
+      ]
+    }
+  ],
+  "title": "알파 0.1.0-alpha.49",
+  "websitePath": "updates/#release-0.1.0-alpha.49"
+}

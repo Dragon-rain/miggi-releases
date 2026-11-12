@@ -1,0 +1,72 @@
+{
+  "applicability": {
+    "releaseVersion": "0.1.0-alpha.49",
+    "type": "release"
+  },
+  "id": "release-0.1.0-alpha.49",
+  "kind": "release",
+  "locale": "en",
+  "references": [
+    {
+      "label": "GitHub Release",
+      "url": "https://github.com/Dragon-rain/miggi-releases/releases/tag/v0.1.0-alpha.49"
+    }
+  ],
+  "release": {
+    "artifactUrls": [
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.49/Miggi-0.1.0-alpha.49-windows-x86_64.exe",
+      "https://github.com/Dragon-rain/miggi-releases/releases/download/v0.1.0-alpha.49/Miggi-0.1.0-alpha.49-windows-x86_64.exe.sha256"
+    ],
+    "date": "2026-11-12",
+    "kind": "alpha",
+    "version": "0.1.0-alpha.49"
+  },
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "heading": "0.1.0-alpha.49",
+      "paragraphs": [
+        "Previously sent Miggi screen captures can now be found and opened again as original images, with small composer and Warm Linen fixes.",
+        "Update from the exact public alpha.48 using Check → Download → Update and restart. Memory stays V039; no new migration is required.",
+        "Personal test alpha: real GUI retrieval and restart checks passed; Roman will check the installed alpha.48 → alpha.49 update on his PC."
+      ]
+    },
+    {
+      "heading": "Checks that the bytes match. It does not replace a publisher’s digital signature.",
+      "paragraphs": [
+        "No Windows publisher signature."
+      ]
+    },
+    {
+      "heading": "Alpha",
+      "paragraphs": [
+        "Updates are checked automatically; download and installation require confirmation."
+      ]
+    },
+    {
+      "heading": "Added",
+      "paragraphs": [
+        "Historical capture lookup by original message/conversation, first or latest captures, and pagination. The AI can request the verified original pixels without taking a new screenshot."
+      ]
+    },
+    {
+      "heading": "Fixed",
+      "paragraphs": [
+        "Attachment removal hover now darkens the thumbnail transparently instead of covering it with a solid fill.",
+        "Custom tooltips explicitly use the active theme colours and an opaque readable surface; ordinary empty tooltips no longer create a blank panel.",
+        "Composer actions share sizes and spacing in text and voice modes. Stop and Send keep their slots; Cancel stays at the left start of the input regardless of avatar side."
+      ]
+    },
+    {
+      "heading": "Known limitations",
+      "paragraphs": [
+        "No Windows Authenticode signature. Do not bypass SmartScreen/SAC or disable protection. Update-channel signing is not a Windows publisher signature.",
+        "Sent screen captures retain their existing 30-day lifetime. Missing, changed or expired originals cannot be recovered from a thumbnail; lookup is not semantic image-content search.",
+        "After restart the AI may perform extra searches before finding the capture. This remains an efficiency improvement, not a claim that every retrieval path is optimal.",
+        "Fresh installation and the exact installed alpha.48 → alpha.49 path await manual acceptance. Other recorded TODOs, including the reported theme reset after update, are not declared fixed."
+      ]
+    }
+  ],
+  "title": "Alpha 0.1.0-alpha.49",
+  "websitePath": "updates/#release-0.1.0-alpha.49"
+}
